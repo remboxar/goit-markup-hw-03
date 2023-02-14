@@ -65,7 +65,6 @@ p {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    margin-bottom:72px;
 }
 
 /* Header */
@@ -151,16 +150,14 @@ footer .logo-decorate {
 
 footer {
     background-color: var(--headings-color);
+    padding: 100px 0;
 }
 
 .footer-info {
-    color: var(--accent-color)
+    color: var(--accent-color);
+    max-width: 264px;
 }
 
-.footer-container{
-    max-width: 264px;
-    padding:100px 0; 
-}
 
 .footer-container .logo{
     display:inline-block;
@@ -172,6 +169,7 @@ footer {
     background-color: var(--headings-color);
     color:var(--inverted-text-color);
     text-align: center;
+    padding: 188px 0;
 }
 
 .hero-title{
@@ -202,12 +200,12 @@ footer {
     background-color: var(--pressed-state-color);
 }
 
-.hero-container{
-    padding: 188px 0;
-
-}
 
 /* Benefits section*/
+
+.benefits{
+    padding:120px 0; 
+}
 .benefits-title{
     color:var(--headings-color);
     font-weight: 500;
@@ -218,7 +216,6 @@ footer {
 .benefits-list{
     display:flex;
     gap:24px;
-    padding:120px 0;
 }
 
 .benefits-item{
@@ -230,10 +227,15 @@ footer {
 }
 
 /* Works section*/
+
+.works{
+    padding-bottom:120px;
+}
+
 .works-list{
+    padding-top:72px;
     display: flex;
     gap:24px;
-    padding-bottom : 120px ;
 }
 
 
@@ -259,6 +261,7 @@ footer {
 }
 
 .team-list{
+    padding-top: 72px;
     display:flex;
     gap:24px;
 
@@ -269,12 +272,15 @@ footer {
 }
 
 
-/*portfolio-filter-list*/
+/*Portfolio*/
 
+.portfolio{
+ padding:96px 0 120px 0; 
+}
 .portfolio-filter-menu{
     display:flex;
     gap:24px; 
-    margin-top:96px;
+    margin-top:96p;
     justify-content: center;
 }
 
@@ -282,12 +288,12 @@ footer {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    margin-top:72px;
-    margin-bottom:120px;
+    padding-top:72px;
+    margin-bottom:120p;
 }
 
 .portfolio-project-item{
-flex-basis: calc((100% - 72px) / 3);
+flex-basis: calc((100% - 48px) / 3);
 
 }
 
