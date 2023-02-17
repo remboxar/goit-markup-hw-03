@@ -233,7 +233,7 @@ footer {
 }
 
 .works-list{
-    padding-top:72px;
+    margin-top:72px;
     display: flex;
     gap:24px;
 }
@@ -261,7 +261,7 @@ footer {
 }
 
 .team-list{
-    padding-top: 72px;
+    margin-top: 72px;
     display:flex;
     gap:24px;
 
@@ -288,7 +288,7 @@ footer {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    padding-top:72px;
+    margin-top:72px;
     margin-bottom:120p;
 }
 
